@@ -19,7 +19,7 @@ export default function Home() {
       <Testimonials/>
       <WaveEffect color1={'purple'} color2={'pink'} backgroundColor1={"#1f994b"} backgroundColor2={"#dd9a4b"}/>
       <FAQ/>
-      <WaveEffect color1={'#1f994b'} color2={'#dd9a4b'} backgroundColor1={"grey"} backgroundColor2={"black"}/>
+      <WaveEffect color1={'#1f994b'} color2={'#dd9a4b'} backgroundColor1={"grey"} backgroundColor2={"lightgrey"}/>
       <CallToAction/>    
       {/* <WaveEffect color1={'white'} color2={'black'} backgroundColor1={"red"} backgroundColor2={"orange"}/> */}
     </>

@@ -1,5 +1,5 @@
 footer{
-    background-image: linear-gradient(to right, grey, black);
+    background-image: linear-gradient(to right, grey, lightgrey);
     /* position: absolute; */
     display: flex;
     justify-content: center;
