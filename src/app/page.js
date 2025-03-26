@@ -1,5 +1,6 @@
-import BuyingGuide from "./components/BuyingGuide";
+// import BuyingGuide from "./components/BuyingGuide";
 import CallToAction from "./components/CallToAction";
+import FAQ from "./components/FAQ";
 import FeaturedProducts from "./components/FeaturedProducts";
 import Hero from "./components/Hero";
 import LatestPosts from "./components/LatestPosts";
@@ -16,7 +17,9 @@ export default function Home() {
       <WaveEffect color1={'lightgreen'} color2={'darkgreen'} backgroundColor1={"purple"} backgroundColor2={"pink"}/>
       {/* <BuyingGuide/> */}
       <Testimonials/>
-      <WaveEffect color1={'purple'} color2={'pink'} backgroundColor1={"white"} backgroundColor2={"black"}/>
+      <WaveEffect color1={'purple'} color2={'pink'} backgroundColor1={"#1f994b"} backgroundColor2={"#dd9a4b"}/>
+      <FAQ/>
+      <WaveEffect color1={'#1f994b'} color2={'#dd9a4b'} backgroundColor1={"white"} backgroundColor2={"black"}/>
       <CallToAction/>    
       {/* <WaveEffect color1={'white'} color2={'black'} backgroundColor1={"red"} backgroundColor2={"orange"}/> */}
     </>
