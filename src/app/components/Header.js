@@ -23,7 +23,7 @@ export default function Header() {
             <Link href="/about">About</Link>
           </li>
         </ul>
-        <img src='globe.svg' width={'50px'} height={'100%'}></img>
+        <img src='./images/example.png' width={'75px'} height={'75px'}></img>
       </nav>
     </header>
   );
