@@ -1,0 +1,19 @@
+.latest-posts{
+    background-image: linear-gradient(to right, lightgreen, darkgreen);
+}
+.posts-grid{
+    display: flex;
+    gap: 5vw;
+    place-items: center;
+}
+.post-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    border: 1px solid white;
+    width: 30vw;
+    padding: 50px;
+    text-align: center;
+}

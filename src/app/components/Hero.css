@@ -1,0 +1,24 @@
+.hero {
+    flex-direction: row;
+    background-image: linear-gradient(to right, #3498db, steelblue);
+    /* background-color: #3498db; */
+    /* min-height: 20vh; */
+    padding: 0;
+  }
+  .hero-image {
+    /* background: url(); */
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 100%; */
+  }
+  
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    color: #fff;
+    margin: 5vw;
+    width: 40vw;
+  }

@@ -1,0 +1,6 @@
+.wave {
+    width: 100%;
+    transform: scaleY(-1);
+    margin-top: -1px;
+    background-color: transparent;
+  }

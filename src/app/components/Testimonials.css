@@ -1,0 +1,21 @@
+.testimonials {
+  background-image: linear-gradient(to right, purple, pink);
+}
+
+.testimonials-list {
+  display: flex;
+  gap: 5vw;
+  place-items: center;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 3vh;
+  border: 1px solid white;
+  width: 30vw;
+  padding: 50px;
+}
