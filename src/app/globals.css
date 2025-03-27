@@ -60,6 +60,7 @@ section {
   align-items: center;
   padding-bottom: 10vh;
   gap: 5vh;
+  width: 100%;
   /* min-height: 20vh; */
 }
 /* section {
