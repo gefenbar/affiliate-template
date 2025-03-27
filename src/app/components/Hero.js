@@ -9,7 +9,7 @@ export default function Hero(){
   <button>Learn More</button>
 </div>
 <div className="hero-image">
-<img  width={'50%'} height={'50%'} src="./images/example.png"></img>
+<img  width={'65%'} height={'65%'} src="./images/example.png"></img>
 </div>
 </section>
     )

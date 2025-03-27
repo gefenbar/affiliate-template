@@ -1,4 +1,4 @@
-.featured-products {
+.recommended-products {
   background-image: linear-gradient(to right, coral, thistle);
   display: flex;
   flex-direction: column;
@@ -21,6 +21,9 @@
     text-align: center;
     /* background-color: blue; */
 }
-.product-card img{
+.product-card button{
     max-width: 70%;
+}
+.product-card img{
+width: 30vw;
 }

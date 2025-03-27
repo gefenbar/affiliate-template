@@ -6,6 +6,7 @@
   display: flex;
   gap: 5vw;
   width: 80%;
+  justify-content: center;
 }
 
 .testimonial {
