@@ -16,6 +16,7 @@
   .hero-content {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 1vh;
     color: #fff;
     margin: 5vw;
