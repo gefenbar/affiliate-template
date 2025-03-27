@@ -36,8 +36,6 @@ export default function FAQ() {
     <section className="faq">
         <div className="section-top">
         <h2>Frequently Asked Questions</h2>
-
-      <button className="see-more-btn">See All</button>
       </div>
       {faqs.map((faq, index) => (
         <FAQItem

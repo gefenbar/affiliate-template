@@ -42,6 +42,7 @@ export default function RecommendedProducts() {
           slidesPerView={1}
           navigation
           pagination={{ clickable: true }}
+          speed={'800'}
           // scrollbar={{ draggable: true }}
           loop={true}
           style={{ width: "80%", maxWidth: "1000px" }} // הגבלת רוחב הקרוסלה

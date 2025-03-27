@@ -1,7 +1,7 @@
 import "./LatestArticles.css";
 export default function LatestArticles() {
-  const posts = [{ name:'article1',brief:'Brief summary of the review...',imgSrc: "/images/example.png", imgAlt: "post1" },
-     {name:'article2',brief:'Brief summary of the review...',imgSrc:"/images/example.png",imgAlt:'post2'}];
+  const posts = [{ name:'article1',brief:'Brief summary of the review...',imgSrc: "/images/article.webp", imgAlt: "post1" },
+     {name:'article2',brief:'Brief summary of the review...',imgSrc:"/images/article.webp",imgAlt:'post2'}];
   return (
     <section className="latest-articles">
       <div className="section-top">
@@ -18,7 +18,8 @@ export default function LatestArticles() {
               />
               <h3>{item.name}</h3>
               <p>{item.brief}</p>
-              <button>Read More</button>
+              <button>Read More...</button>
+              <div/>
             </article>
           );
         })}
