@@ -2,6 +2,10 @@
   background-image: linear-gradient(to right, #1f994b, #dd9a4b);
   gap:2vh;
 }
+.faq h2{
+    padding-bottom: 3vh;
+
+}
 
 .faq-item {
   border-bottom: 1px solid #ccc;
