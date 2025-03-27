@@ -92,6 +92,24 @@ button {
   border-radius: 40px;
   font-size: 25px;
 }
+.section-top {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.see-more-btn {
+  padding: 0;
+  /* margin: 0; */
+  font-weight: 600;
+  height: 30px;
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  align-self: center;
+  width:fit-content;
+  margin-right: 2vw;
+  padding: 5px 10px 5px 10px;
+}
 
 @media (max-width: 600px) {
   h1 {

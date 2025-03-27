@@ -31,7 +31,10 @@ export default function RecommendedProducts() {
 
   return (
     <section className="recommended-products">
+      <div className="section-top">
       <h2>Recommended Products</h2>
+      <button className="see-more-btn">See All</button>
+      </div>
       {/* <div className="products-grid"> */}
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}

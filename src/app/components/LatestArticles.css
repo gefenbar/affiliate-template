@@ -1,13 +1,13 @@
-.latest-posts{
+.latest-articles{
     background-image: linear-gradient(to right, lightgreen, darkgreen);
 }
-.posts-grid{
+.articles-grid{
     display: flex;
     gap: 5vw;
     place-items: center;
     width: 80%;
 }
-.post-card{
+.article-card{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,4 +19,4 @@
     /* padding: 50px; */
     text-align: center;
 }
-.post-card img{max-width: 70%;}
+.article-card img{max-width: 70%;}

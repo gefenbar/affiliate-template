@@ -9,7 +9,11 @@ export default function Testimonials() {
   ];
   return (
     <section className="testimonials">
-      <h2>What Our Customers Say</h2>
+      <div className="section-top">
+        <h2>What Our Customers Say</h2>
+
+        <button className="see-more-btn">See All</button>
+      </div>
       <div className="testimonials-list">
         {testimonials.map((item, index) => {
           return (

@@ -1,14 +1,17 @@
-import "./LatestPosts.css";
-export default function LatestPosts() {
+import "./LatestArticles.css";
+export default function LatestArticles() {
   const posts = [{ name:'article1',brief:'Brief summary of the review...',imgSrc: "/images/example.png", imgAlt: "post1" },
      {name:'article2',brief:'Brief summary of the review...',imgSrc:"/images/example.png",imgAlt:'post2'}];
   return (
-    <section className="latest-posts">
+    <section className="latest-articles">
+      <div className="section-top">
       <h2>Latest Articles</h2>
-      <div className="posts-grid">
+      <button className="see-more-btn">See All</button>
+      </div>
+      <div className="articles-grid">
         {posts.map((item, index) => {
           return (
-            <article className="post-card" key={index}>
+            <article className="article-card" key={index}>
               <img
                 src={item.imgSrc}
                 alt={item.imgAlt}
