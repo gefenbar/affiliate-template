@@ -77,9 +77,12 @@ h2 {
   align-self: self-start;
   margin-left: 5vw;
 }
-
-p {
-  font-size: 25px;
+h3 {
+  font-size: 22px;
+}
+p,
+li {
+  font-size: 20px;
 }
 button {
   width: 30vw;
@@ -94,8 +97,12 @@ button {
   h1 {
     font-size: 30px;
   }
-  p {
-    font-size: 15px;
+  h3 {
+    font-size: 18px;
+  }
+  p,
+  li {
+    font-size: 16px;
   }
   button {
     font-size: 15px;
