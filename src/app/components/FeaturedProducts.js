@@ -6,12 +6,11 @@ export default function FeaturedProducts() {
   return (
       <section className="featured-products">
         <h2>Featured Products</h2>
-        <br></br>
         <div className="products-grid">
         {products.map((item,index)=>{
             return(
                 <div className="product-card" key={index}>
-                <img src={item.imgSrc} alt={item.imgAlt} width={'100px'} height={'100px'}/>
+                <img src={item.imgSrc} alt={item.imgAlt} />
                 <h3>{item.name}</h3>
                   <p>{item.desc}</p>
                   <br></br>

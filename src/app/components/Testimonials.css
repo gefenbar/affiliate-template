@@ -5,7 +5,7 @@
 .testimonials-list {
   display: flex;
   gap: 5vw;
-  place-items: center;
+  width: 80%;
 }
 
 .testimonial {
@@ -16,6 +16,8 @@
   text-align: center;
   gap: 3vh;
   border: 1px solid white;
-  width: 30vw;
-  padding: 50px;
+  border-radius: 8px;
+  padding: 1rem;
+  /* width: 30vw; */
+  /* padding: 50px; */
 }

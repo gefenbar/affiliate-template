@@ -1,3 +1,15 @@
 .buying-guide{
     background-image: linear-gradient(to right, crimson, aquamarine);
 }
+.buying-guide h3 {
+    font-size: 25px;
+    width: 50%;
+    align-self: self-start;
+    margin-left: 5vw;
+  }
+  .buying-guide li{
+    /* font-size: 25px; */
+    width: 80%;
+    align-self: self-start;
+    margin-left: 15vw;
+  }

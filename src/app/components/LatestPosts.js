@@ -12,8 +12,6 @@ export default function LatestPosts() {
               <img
                 src={item.imgSrc}
                 alt={item.imgAlt}
-                width={"100px"}
-                height={"100px"}
               />
               <h3>{item.name}</h3>
               <p>{item.brief}</p>

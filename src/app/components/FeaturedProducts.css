@@ -7,15 +7,20 @@
   display: flex;  
   gap: 5vw;
   place-items: center;
+  width: 80%;
 }
 .product-card{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid white;
-    width: 30vw;
-    padding: 50px;
+    padding: 1rem;
+    /* border: 1px solid white; */
+    /* width: 30vw; */
+    /* padding: 50px; */
     text-align: center;
     /* background-color: blue; */
+}
+.product-card img{
+    max-width: 70%;
 }
