@@ -33,8 +33,7 @@ export default function QualityLinks() {
       <h2>Recommended Resources for Electric Toothbrushes</h2>
       <div>
       <p>
-        To help you make an informed decision, we've compiled a list of trusted resources featuring in-depth reviews and expert comparisons of the best electric toothbrushes available.
-      </p>
+{"To help you make an informed decision, we've compiled a list of trusted resources featuring in-depth reviews and expert comparisons of the best electric toothbrushes available."}      </p>
       <br></br>
       <ul>
         {links.map((link, index) => (
