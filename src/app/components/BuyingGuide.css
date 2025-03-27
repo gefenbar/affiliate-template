@@ -1,15 +1,46 @@
-.buying-guide{
-    background-image: linear-gradient(to right, crimson, aquamarine);
+.buying-guide {
+  background-image: linear-gradient(to right, crimson, aquamarine);
 }
 .buying-guide h3 {
-    font-size: 25px;
+  /* font-size: 25px; */
+  /* width: 50%; */
+  /* align-self: self-start; */
+  /* margin-left: 5vw; */
+}
+.buying-guide li {
+  width: 90%;
+  justify-self: center;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.intro {
+  text-align: center;
+}
+
+.advice-item {
+  display: flex;
+  align-items: flex-start;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #eee;
+  transition: background-color 0.3s ease;
+}
+
+.advice-item:last-child {
+  border-bottom: none;
+}
+
+.advice-item:hover {
+  background-color: rgba(0, 0, 0, 0.13);
+}
+
+.advice-title {
+  font-weight: bold;
+  color: white;
+  width: 40%;
+}
+.advice-desc{
     width: 50%;
-    align-self: self-start;
-    margin-left: 5vw;
-  }
-  .buying-guide li{
-    /* font-size: 25px; */
-    width: 80%;
-    align-self: self-start;
-    margin-left: 15vw;
-  }
+    color:#222;
+}
+
