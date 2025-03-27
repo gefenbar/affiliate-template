@@ -1,8 +1,6 @@
-// src/app/reviews/page.js
-import WaveEffect from '../components/WaveEffect'
 import './page.css'
 
-export default function Reviews() {
+export default function About() {
     return (
       <div>
         <div className='content'>
