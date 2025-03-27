@@ -11,9 +11,9 @@ export default function BuyingGuide() {
     return (
       <section className="buying-guide">
         <h2>How to Choose the Best Electric Toothbrush</h2>
-        <h3>
+        <h4>
           Choosing the right electric toothbrush can greatly enhance your oral hygiene. Here are some key factors to consider:
-        </h3>
+        </h4>
         <ul>
 
         {advices.map((item,index)=>{
