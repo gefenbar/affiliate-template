@@ -1,4 +1,5 @@
 export default function BuyingGuide() {
+    
     return (
       <section className="buying-guide">
         <h2>How to Choose the Best Electric Toothbrush</h2>

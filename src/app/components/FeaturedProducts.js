@@ -1,26 +1,25 @@
 import "./FeaturedProducts.css";
 export default function FeaturedProducts() {
+    const products = [{name:'Electric Toothbrush 1',desc:'Short description...',imgSrc:'/images/example.png',imgAlt:'Product 1'},
+        {name:'Electric Toothbrush 2',desc:'Short description...',imgSrc:'/images/example.png',imgAlt:'Product 2'}
+    ]
   return (
       <section className="featured-products">
         <h2>Featured Products</h2>
         <br></br>
         <div className="products-grid">
-          {/* כאן תכניסו רכיבים של מוצרים */}
-          <div className="product-card">
-          <img src="/images/example.png" alt="Product 2" width={'100px'} height={'100px'}/>
-          <h3>Electric Toothbrush 1</h3>
-            <p>Short description...</p>
-            <br></br>
-            <button>Learn More</button>
-          </div>
-          <div className="product-card">
-            <img src="/images/example.png" alt="Product 2" width={'100px'} height={'100px'}/>
-            <h3>Electric Toothbrush 2</h3>
-            <p>Short description...</p>
-            <br></br>
-            <button>Learn More</button>
-          </div>
-          {/* המשך כרצונכם */}
+        {products.map((item,index)=>{
+            return(
+                <div className="product-card" key={index}>
+                <img src={item.imgSrc} alt={item.imgAlt} width={'100px'} height={'100px'}/>
+                <h3>{item.name}</h3>
+                  <p>{item.desc}</p>
+                  <br></br>
+                  <button>Learn More</button>
+                </div>
+            )
+        })}
+
         </div>
       </section>
   );

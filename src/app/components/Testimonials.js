@@ -1,19 +1,25 @@
-import './Testimonials.css'
+import "./Testimonials.css";
 export default function Testimonials() {
-    return (
-      <section className="testimonials">
-        <h2>What Our Customers Say</h2>
-        <div className="testimonials-list">
-          <div className="testimonial">
-            <p>{"This electric toothbrush changed my life!"}</p>
-            <h4>John Doe</h4>
-          </div>
-          <div className="testimonial">
-            <p>{"Highly recommend for a fresh and clean smile."}</p>
-            <h4>Jane Smith</h4>
-          </div>
-        </div>
-      </section>
-    );
-  }
-  
+  const testimonials = [
+    { text: "This electric toothbrush changed my life!", name: "John Doe" },
+    {
+      text: "Highly recommend for a fresh and clean smile.",
+      name: "Jane Smith",
+    },
+  ];
+  return (
+    <section className="testimonials">
+      <h2>What Our Customers Say</h2>
+      <div className="testimonials-list">
+        {testimonials.map((item, index) => {
+          return (
+            <div className="testimonial" key={index}>
+              <p>{item.text}</p>
+              <h4>{item.name}</h4>
+            </div>
+          );
+        })}
+      </div>
+    </section>
+  );
+}
