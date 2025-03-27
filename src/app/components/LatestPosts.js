@@ -1,7 +1,7 @@
 import "./LatestPosts.css";
 export default function LatestPosts() {
-  const posts = [{ name:'abc',brief:'Brief summary of the review...',imgSrc: "/images/example.png", imgAlt: "post1" },
-     {name:'def',brief:'Brief summary of the review...',imgSrc:"/images/example.png",imgAlt:'post2'}];
+  const posts = [{ name:'article1',brief:'Brief summary of the review...',imgSrc: "/images/example.png", imgAlt: "post1" },
+     {name:'article2',brief:'Brief summary of the review...',imgSrc:"/images/example.png",imgAlt:'post2'}];
   return (
     <section className="latest-posts">
       <h2>Latest Articles</h2>

@@ -27,3 +27,5 @@
 .product-card img{
 width: 30vw;
 }
+.swiper-button-next , .swiper-button-prev{color: white !important;}
+.swiper-pagination-bullet{background-color: white !important;}
