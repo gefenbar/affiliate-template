@@ -16,9 +16,6 @@
   justify-content: center;
   align-items: center;
   padding: 1rem;
-  /* border: 1px solid white; */
-  /* width: 30vw; */
-  /* padding: 50px; */
   text-align: center;
   gap: 1vh;
   border-radius: 35% 95% 39% 51% / 83% 30% 67% 30%;
@@ -39,6 +36,7 @@
 }
 .product-card img {
   width: 30vw;
+  max-width: 250px;
 }
 
 .swiper-button-next,
@@ -48,4 +46,5 @@
 }
 .swiper-pagination-bullet {
   background-color: white !important;
+  
 }

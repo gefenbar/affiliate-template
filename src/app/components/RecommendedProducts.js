@@ -45,7 +45,7 @@ export default function RecommendedProducts() {
           speed={'800'}
           // scrollbar={{ draggable: true }}
           loop={true}
-          style={{ width: "80%", maxWidth: "1000px" }} // הגבלת רוחב הקרוסלה
+          style={{ width: "80%", maxWidth: "600px" }} // הגבלת רוחב הקרוסלה
         >
           {products.map((item, index) => (
             <SwiperSlide key={index}>

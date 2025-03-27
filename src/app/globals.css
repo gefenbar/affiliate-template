@@ -75,6 +75,7 @@ h2 {
   width: 50%;
   align-self: self-start;
   margin-left: 5vw;
+  text-align: left;
 }
 h3 {
   font-size: 22px;

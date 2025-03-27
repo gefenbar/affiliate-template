@@ -1,7 +1,9 @@
 import "./LatestArticles.css";
 export default function LatestArticles() {
   const posts = [{ name:'article1',brief:'Brief summary of the review...',imgSrc: "/images/article.webp", imgAlt: "post1" },
-     {name:'article2',brief:'Brief summary of the review...',imgSrc:"/images/article.webp",imgAlt:'post2'}];
+     {name:'article2',brief:'Brief summary of the review...',imgSrc:"/images/article.webp",imgAlt:'post2'},
+     { name:'article1',brief:'Brief summary of the review...',imgSrc: "/images/article.webp", imgAlt: "post1" },
+    ];
   return (
     <section className="latest-articles">
       <div className="section-top">

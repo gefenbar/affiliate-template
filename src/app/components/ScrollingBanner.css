@@ -1,0 +1,30 @@
+.banner-container {
+    width: 100%;
+    overflow: hidden;
+    background: grey;
+    padding: 1rem 0;
+  }
+  
+  .banner-content {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll 25s linear infinite;
+  }
+  
+  .banner-text {
+    margin-right: 2rem;
+    font-size: 90%;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* אנימציית גלילה מימין משמאל */
+  @keyframes scroll {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
