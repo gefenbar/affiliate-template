@@ -1,4 +1,5 @@
 // import BuyingGuide from "./components/BuyingGuide";
+import BuyingGuide from "./components/BuyingGuide";
 import CallToAction from "./components/CallToAction";
 import FAQ from "./components/FAQ";
 import FeaturedProducts from "./components/FeaturedProducts";
@@ -14,8 +15,9 @@ export default function Home() {
       <FeaturedProducts/>
       <WaveEffect color1={'coral'} color2={'thistle'} backgroundColor1={"lightgreen"} backgroundColor2={"darkgreen"}/>
       <LatestPosts/>
-      <WaveEffect color1={'lightgreen'} color2={'darkgreen'} backgroundColor1={"purple"} backgroundColor2={"pink"}/>
-      {/* <BuyingGuide/> */}
+      <WaveEffect color1={'lightgreen'} color2={'darkgreen'} backgroundColor1={"crimson"} backgroundColor2={"aquamarine"}/>
+      <BuyingGuide/>
+      <WaveEffect color1={'crimson'} color2={'aquamarine'} backgroundColor1={"purple"} backgroundColor2={"pink"}/>
       <Testimonials/>
       <WaveEffect color1={'purple'} color2={'pink'} backgroundColor1={"#1f994b"} backgroundColor2={"#dd9a4b"}/>
       <FAQ/>

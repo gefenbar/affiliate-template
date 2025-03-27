@@ -77,6 +77,12 @@ h2 {
   align-self: self-start;
   margin-left: 5vw;
 }
+h3 {
+  font-size: 25px;
+  width: 50%;
+  align-self: self-start;
+  margin-left: 5vw;
+}
 p {
   font-size: 25px;
 }
