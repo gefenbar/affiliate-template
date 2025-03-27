@@ -5,7 +5,7 @@
 .testimonials-list {
   display: flex;
   gap: 5vw;
-  width: 80%;
+  width: 100%;
   justify-content: center;
 }
 
@@ -31,11 +31,23 @@
   font-weight: 900;
   /* align-content: center; */
 }
-.left-qoute{
-    display: flex;
-    justify-content: left!important;
+.left-qoute {
+  display: flex;
+  justify-content: left !important;
 }
-.right-qoute{
-    display: flex;
-    justify-content: right!important;
+.right-qoute {
+  display: flex;
+  justify-content: right !important;
+}
+.testimonials .swiper-button-next,
+.testimonials .swiper-button-prev {
+  /* background-color: blue; */
+  /* padding:2rem; */
+  /* margin:-1rem; */
+  /* border-radius: 120px;  */
+  font-weight: 100;
+}
+.swiper {
+  width: 100%;
+  max-width: 800px;
 }
