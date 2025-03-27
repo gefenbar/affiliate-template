@@ -23,7 +23,7 @@ export default function Header() {
             <Link href="/about">About</Link>
           </li>
         </ul>
-        <img src='./images/logo.png' width={'100px'} height={'75px'}></img>
+        <img src='./images/logo.png' width={'75px'} height={'75px'}></img>
       </nav>
     </header>
   );
