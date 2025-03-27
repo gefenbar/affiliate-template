@@ -31,7 +31,7 @@ export default function Testimonials() {
           speed={'800'}
           // scrollbar={{ draggable: true }}
           loop={true}
-          style={{ width: "100%", maxWidth: "500px" }} // הגבלת רוחב הקרוסלה
+          style={{ width: "100%", maxWidth: "800px" }} // הגבלת רוחב הקרוסלה
         >
         {testimonials.map((item, index) => {
           return (
