@@ -1,6 +1,22 @@
-
-.content {
-  height: 20vh;
-  background-color: #3498db;
-}
-
+/* ReviewsPage.css */
+.reviews-page {
+    padding: 3rem 1rem;
+    background: linear-gradient(135deg, #f3f3f3, #e8e8e8);
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+  }
+  
+  .reviews-page h1 {
+    text-align: center;
+    /* font-size: 2.8rem; */
+    margin-bottom: 2rem;
+    color: #222;
+  }
+  
+  .reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  

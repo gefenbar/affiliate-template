@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "productName": "Electric Toothbrush Model X",
+      "summary": "Model X offers superior cleaning performance with advanced features like multiple cleaning modes and a long-lasting battery.",
+      "image": "/images/example.png",
+      "rating": 4.5,
+      "pros": "Excellent battery life, versatile cleaning modes, robust build",
+      "cons": "High price, bulky brush head"
+    },
+    {
+      "id": 2,
+      "productName": "Electric Toothbrush Model Y",
+      "summary": "A budget-friendly option that delivers reliable performance for everyday use.",
+      "image": "/images/example.png",
+      "rating": 4.0,
+      "pros": "Affordable, lightweight, easy to handle",
+      "cons": "Limited cleaning modes, shorter battery life"
+    },
+    {
+        "id": 3,
+        "productName": "Electric Toothbrush Model Y",
+        "summary": "A budget-friendly option that delivers reliable performance for everyday use.",
+        "image": "/images/example.png",
+        "rating": 4.0,
+        "pros": "Affordable, lightweight, easy to handle",
+        "cons": "Limited cleaning modes, shorter battery life"
+      }, {
+        "id": 4,
+        "productName": "Electric Toothbrush Model Y",
+        "summary": "A budget-friendly option that delivers reliable performance for everyday use.",
+        "image": "/images/example.png",
+        "rating": 4.0,
+        "pros": "Affordable, lightweight, easy to handle",
+        "cons": "Limited cleaning modes, shorter battery life"
+      }
+  ]
+  
