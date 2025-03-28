@@ -32,33 +32,33 @@ export default function RecommendedProducts() {
   return (
     <section className="recommended-products">
       <div className="section-top">
-      <h2>Recommended Products</h2>
-      <button className="see-more-btn">See All</button>
+        <h2>Recommended Products</h2>
+        <button className="see-more-btn">See All</button>
       </div>
       {/* <div className="products-grid"> */}
-        <Swiper
-          modules={[Navigation, Pagination, Scrollbar, A11y]}
-          spaceBetween={20}
-          slidesPerView={1}
-          navigation
-          pagination={{ clickable: true }}
-          speed={'800'}
-          // scrollbar={{ draggable: true }}
-          loop={true}
-          style={{ width: "80%", maxWidth: "600px" }} // הגבלת רוחב הקרוסלה
-        >
-          {products.map((item, index) => (
-            <SwiperSlide key={index}>
-              <div className="product-card">
-                <img src={item.imgSrc} alt={item.imgAlt} />
-                <h3>{item.name}</h3>
-                <p>{item.desc}</p>
-                <button>Learn More</button>
-              </div>
-              <br></br>
-            </SwiperSlide>
-          ))}
-        </Swiper>
+      <Swiper
+        modules={[Navigation, Pagination, Scrollbar, A11y]}
+        spaceBetween={20}
+        slidesPerView={1}
+        navigation
+        pagination={{ clickable: true }}
+        speed={"800"}
+        // scrollbar={{ draggable: true }}
+        loop={true}
+        style={{ width: "80%", maxWidth: "600px" }} // הגבלת רוחב הקרוסלה
+      >
+        {products.map((item, index) => (
+          <SwiperSlide key={index}>
+            <div className="product-card">
+              <img src={item.imgSrc} alt={item.imgAlt} />
+              <h3>{item.name}</h3>
+              <p>{item.desc}</p>
+              <button>Learn More</button>
+            </div>
+            <br></br>
+          </SwiperSlide>
+        ))}
+      </Swiper>
       {/* </div> */}
     </section>
   );
