@@ -4,6 +4,9 @@
     min-height: 100vh;
     font-family: 'Poppins', sans-serif;
     color: #333;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
   }
   
   .blog h1 {
@@ -17,7 +20,12 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
   }
-  .blog .article-card {
-    min-width: 300px;
-  }
+ 
+  @media (max-width: 600px) {
+    .blog .articles-grid {
+        display: flex;
+        flex-direction: column;
+    }
+}
+  
   

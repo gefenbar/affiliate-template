@@ -1,7 +1,8 @@
-[
+
+[  
     {
       "id": 1,
-      "productName": "Electric Toothbrush Model X",
+      "productName": "Electric Toothbrush Model W",
       "summary": "Model X offers superior cleaning performance with advanced features like multiple cleaning modes and a long-lasting battery.",
       "image": "/images/example.png",
       "rating": 4.5,
@@ -10,7 +11,7 @@
     },
     {
       "id": 2,
-      "productName": "Electric Toothbrush Model Y",
+      "productName": "Electric Toothbrush Model X",
       "summary": "A budget-friendly option that delivers reliable performance for everyday use.",
       "image": "/images/example.png",
       "rating": 4.0,
@@ -27,7 +28,7 @@
         "cons": "Limited cleaning modes, shorter battery life"
       }, {
         "id": 4,
-        "productName": "Electric Toothbrush Model Y",
+        "productName": "Electric Toothbrush Model Z",
         "summary": "A budget-friendly option that delivers reliable performance for everyday use.",
         "image": "/images/example.png",
         "rating": 4.0,

@@ -14,8 +14,10 @@
   flex-direction: column;
   justify-self: center;
   text-align: center;
+  background-color: white;
+  color: black;
   /* gap: 2vh; */
-  border: 1px solid white;
+  /* border: 1px solid white; */
   border-radius: 90% 90% 100% 10% / 54% 35% 90% 66%;
   padding: 5rem;
   width: 75%;

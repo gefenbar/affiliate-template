@@ -4,6 +4,7 @@
     min-height: 100vh;
     font-family: 'Poppins', sans-serif;
     color: #333;
+ 
     /* place-items: center; */
   }
   
@@ -15,9 +16,16 @@
   }
   
   .reviews-grid {
-    
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
   }
+  @media (max-width: 600px) {
+    .reviews-grid {
+    display: flex;
+    flex-direction: column;
+    }
+
+  
+}
   

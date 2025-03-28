@@ -1,27 +1,34 @@
 [
-    {
-      "id": 1,
-      "title": "Electric Toothbrush Review: Model X",
-      "summary": "A detailed review of Model X including performance, battery life, and cleaning modes.",
-      "image": "/images/article.webp",
-      "date": "2025-03-01",
-      "content": "Full content for Model X review..."
-    },
-    {
-      "id": 2,
-      "title": "Top 5 Electric Toothbrushes for Sensitive Gums",
-      "summary": "We compare the best electric toothbrushes that are gentle on sensitive gums.",
-      "image": "/images/article.webp",
-      "date": "2025-02-20",
-      "content": "Full content for the sensitive gums article..."
-    },
-    {
-      "id": 3,
-      "title": "How to Maintain Your Electric Toothbrush",
-      "summary": "Essential tips and maintenance guidelines for keeping your electric toothbrush in top condition.",
-      "image": "/images/article.webp",
-      "date": "2025-02-10",
-      "content": "Full content for maintenance tips..."
-    }
-  ]
-  
+  {
+    "id": 1,
+    "title": "Electric Toothbrush Review: Model X",
+    "summary": "A detailed review of Model X including performance, battery life, and cleaning modes.",
+    "image": "/images/article.webp",
+    "date": "2025-03-01",
+    "content": "Full content for Model X review..."
+  },
+  {
+    "id": 2,
+    "title": "Top 5 Electric Toothbrushes for Sensitive Gums",
+    "summary": "We compare the best electric toothbrushes that are gentle on sensitive gums.",
+    "image": "/images/article.webp",
+    "date": "2025-02-20",
+    "content": "Full content for the sensitive gums article..."
+  },
+  {
+    "id": 3,
+    "title": "How to Maintain Your Electric Toothbrush",
+    "summary": "Essential tips and maintenance guidelines for keeping your electric toothbrush in top condition.",
+    "image": "/images/article.webp",
+    "date": "2025-02-10",
+    "content": "Full content for maintenance tips..."
+  },
+  {
+    "id": 4,
+    "title": "How to Maintain Your Electric Toothbrush",
+    "summary": "Essential tips and maintenance guidelines for keeping your electric toothbrush in top condition.",
+    "image": "/images/article.webp",
+    "date": "2025-02-10",
+    "content": "Full content for maintenance tips..."
+  }
+]
