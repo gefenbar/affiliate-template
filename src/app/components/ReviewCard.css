@@ -52,7 +52,7 @@
   .review-rating {
     font-size: 0.95rem;
     margin-bottom: 1rem;
-    color: #f39c12;
+    color: grey;
   }
   
   .review-pros-cons p {
@@ -76,4 +76,31 @@
   .read-review-btn:hover {
     background: linear-gradient(45deg, #2980b9, #2471a3);
   }
+  
+  .star-rating {
+    position: relative;
+    display: inline-block;
+    /* font-size: 24px; ניתן להתאים את הגודל */
+    /* line-height: 1; */
+  }
+  
+  .star-rating-top {
+    font-size: 25px;
+    color: gold; /* צבע הכוכבים המלאים */
+    position: absolute;
+    /* top: 0; */
+    /* left: 0; */
+    overflow: hidden;
+
+    white-space: nowrap;
+  }
+  
+  .star-rating-bottom {
+    
+    font-size: 25px;
+    color: lightgray; /* צבע הכוכבים הלא ממולאים */
+  }
+  .review-rating span {
+    margin: 5px;
+}
   

@@ -1,11 +1,17 @@
 /* src/app/globals.css */
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to right, #3498db, steelblue);
+}
 nav {
   display: flex;
   flex-direction: row;
-  background-image: linear-gradient(to right, #3498db, steelblue);
-  width: 100%;
+  /* background-image: linear-gradient(to right, #3498db, steelblue); */
+  width: 90%;
   height: 10vh;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-direction: row-reverse;
   align-items: center;
 }

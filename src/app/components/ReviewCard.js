@@ -1,7 +1,11 @@
 "use client";
 import Link from "next/link";
 import './ReviewCard.css'
+
 export default function ReviewCard({ review }) {
+  // חישוב אחוז המילוי (למשל, דירוג 4.8 מתוך 5 יהיה 96%)
+  const fillWidth = (review.rating / 5) * 100;
+  
   return (
     <article className="review-card">
       <img src={review.image} alt={review.productName} className="review-image" />
@@ -9,8 +13,15 @@ export default function ReviewCard({ review }) {
         <h3>{review.productName}</h3>
         <p className="review-summary">{review.summary}</p>
         <div className="review-rating">
-          {/* Here you could use stars or just text */}
-          <span>Rating: {review.rating} / 5</span>
+          <div className="star-rating">
+            <div className="star-rating-top" style={{ width: `${fillWidth}%` }}>
+              ★★★★★
+            </div>
+            <div className="star-rating-bottom">
+              ★★★★★
+            </div>
+          </div>
+          <span>{review.rating} / 5</span>
         </div>
         <div className="review-pros-cons">
           <p><strong>Pros:</strong> {review.pros}</p>
