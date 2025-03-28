@@ -7,7 +7,7 @@ return (
 Electric Toothbrush for Kids: The Ultimate Guide to a Brighter, Healthier Smile
 </h1>
 <p className="guide-meta">
-Meta Description: Discover how electric toothbrushes can transform your {'{"child’s"}'} dental care routine into a fun and effective experience.
+Meta Description: Discover how electric toothbrushes can transform your {"child’s"} dental care routine into a fun and effective experience.
 </p>
 </div>
 
