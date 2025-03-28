@@ -5,7 +5,6 @@ import './LatestArticles.css'
 import Link from "next/link";
 
 export default function LatestArticles() {
-  // לוקחים את מספר המאמרים הרצוי, למשל 3
   const latestArticles = articlesData.slice(0, 2);
 
   return (
@@ -18,7 +17,7 @@ export default function LatestArticles() {
       </div>
       <div className="articles-grid">
         {latestArticles.map((article) => (
-          <ArticleCard key={article.id} article={article} />
+          <ArticleCard key={article.id} article={article} showDate={true}/>
         ))}
       </div>
     </section>

@@ -2,11 +2,22 @@
     background-image: linear-gradient(to right, lightgreen, darkgreen);
   }
   .articles-grid {
-    display: flex;
-    gap: 5vw;
+    display: grid!important;
+    /* grid-template-rows: min-content; */
+    grid-template-columns: auto auto;
+  /* background-color: dodgerblue; */
+  /* padding: 10px; */
+    /* grid-template-columns: max-content; */
+    /* gap: 0!important; */
     place-items: center;
     padding: 2rem;
+    gap: 20px;
   }
+  /* .blog .article-card { */
+    /* width: 400px; */
+    /* margin: 0; */
+    /* justify-content: unset; */
+  /* } */
   @media (max-width: 600px) {
     .articles-grid {
       flex-direction: column;

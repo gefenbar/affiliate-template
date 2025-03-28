@@ -8,6 +8,8 @@
   padding: 1.1rem;
   text-align: left;
   height: 600px;
+  /* min-width: max-content; */
+
   /* max-width: 350px; */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -33,13 +35,14 @@
   width: 100%;
   max-width: 250px;
 }
-
+.article-date {
+  font-size: 85%;
+}
 @media (max-width: 600px) {
   .article-card {
-    height: 450px;
-    /* flex-direction: column; */
+    height: 500px;
   }
-  .article-card img{
+  .article-card img {
     height: 250px;
-}
+  }
 }

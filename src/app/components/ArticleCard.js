@@ -13,7 +13,7 @@ export default function ArticleCard({ article, showDate = false }) {
       />
       <h3>{article.title}</h3>
       {showDate && <p className="article-date">{article.date}</p>}
-      <p>{article.summary}</p>
+      <p>{article.summary.slice(0,30)+'...'}</p>
       <button>
         <Link href={`/articles/${article.id}`}>Read More...</Link>
       </button>
