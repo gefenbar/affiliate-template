@@ -1,30 +1,25 @@
-import "./LatestArticles.css";
+"use client";
+import articlesData from "../data/articles.json";
+import ArticleCard from "./ArticleCard";
+import './LatestArticles.css'
+import Link from "next/link";
+
 export default function LatestArticles() {
-  const posts = [{ name:'article1',brief:'Brief summary of the review...',imgSrc: "/images/article.webp", imgAlt: "post1" },
-     {name:'article2',brief:'Brief summary of the review...',imgSrc:"/images/article.webp",imgAlt:'post2'},
-     { name:'article1',brief:'Brief summary of the review...',imgSrc: "/images/article.webp", imgAlt: "post1" },
-    ];
+  // לוקחים את מספר המאמרים הרצוי, למשל 3
+  const latestArticles = articlesData.slice(0, 2);
+
   return (
     <section className="latest-articles">
       <div className="section-top">
-      <h2>Latest Articles</h2>
-      <button className="see-more-btn">See All</button>
+        <h2>Latest Articles</h2>
+        <Link href="/articles">
+          <button className="see-more-btn">See All</button>
+        </Link>
       </div>
       <div className="articles-grid">
-        {posts.map((item, index) => {
-          return (
-            <article className="article-card" key={index}>
-              <img
-                src={item.imgSrc}
-                alt={item.imgAlt}
-              />
-              <h3>{item.name}</h3>
-              <p>{item.brief}</p>
-              <button>Read More...</button>
-              <div/>
-            </article>
-          );
-        })}
+        {latestArticles.map((article) => (
+          <ArticleCard key={article.id} article={article} />
+        ))}
       </div>
     </section>
   );

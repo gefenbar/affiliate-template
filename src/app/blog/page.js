@@ -1,14 +1,16 @@
-
-import './page.css'
-
-export default function Blog() {
-    return (
-      <div>
-        <div className='content'>
-        <h2>Your Content Here</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
+"use client";
+import articlesData from "../data/articles.json";
+import ArticleCard from "../components/ArticleCard";
+import "./page.css";
+export default function ArticlesPage() {
+  return (
+    <div className="blog">
+      <h2>Blog</h2>
+      <div className="articles-grid">
+        {articlesData.map((article) => (
+          <ArticleCard key={article.id} article={article} showDate={true} />
+        ))}
       </div>
-    );
-  }
-  
+    </div>
+  );
+}

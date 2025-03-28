@@ -1,7 +1,15 @@
-
-.content {
-    height: 20vh;
-    background-color: #3498db;
+.blog {
+    background-image: linear-gradient(to right, lightgreen, darkgreen);
   }
-  
+  .articles-grid {
+    display: flex;
+    gap: 5vw;
+    place-items: center;
+    padding: 2rem;
+  }
+  @media (max-width: 600px) {
+    .articles-grid {
+      flex-direction: column;
+    }
+  }
   

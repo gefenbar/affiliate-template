@@ -1,12 +1,9 @@
 .buying-guide {
   background-image: linear-gradient(to right, crimson, aquamarine);
 }
-.buying-guide h3 {
-  /* font-size: 25px; */
-  /* width: 50%; */
-  /* align-self: self-start; */
-  /* margin-left: 5vw; */
-}
+/* .buying-guide h3 {
+ 
+} */
 .buying-guide li {
   width: 90%;
   justify-self: center;
@@ -25,6 +22,7 @@ align-items: center;
   padding: 0.75rem 1rem;
   border-bottom: 1px solid #eee;
   transition: background-color 0.3s ease;
+  /* color: red; */
 }
 
 .advice-item:last-child {
