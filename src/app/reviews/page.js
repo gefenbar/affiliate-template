@@ -1,7 +1,7 @@
 "use client";
 import ReviewCard from "../components/ReviewCard";
 import reviewsData from "../data/reviews.json";
-import "./page.css"; // Use your existing CSS or adjust as needed
+import "./page.css"; 
 
 export default function ReviewsPage() {
   return (

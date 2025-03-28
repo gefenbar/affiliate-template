@@ -13,12 +13,13 @@ export default function Header() {
           <li className={pathname === '/' ? 'active' : ''}>
             <Link href="/">Home</Link>
           </li>
-          <li className={pathname === '/blog' ? 'active' : ''}>
-            <Link href="/blog">Blog</Link>
-          </li>
           <li className={pathname === '/reviews' ? 'active' : ''}>
             <Link href="/reviews">Reviews</Link>
           </li>
+          <li className={pathname === '/blog' ? 'active' : ''}>
+            <Link href="/blog">Blog</Link>
+          </li>
+        
           <li className={pathname === '/about' ? 'active' : ''}>
             <Link href="/about">About</Link>
           </li>
