@@ -3,7 +3,6 @@ import Link from "next/link";
 import './ReviewCard.css'
 
 export default function ReviewCard({ review }) {
-  // חישוב אחוז המילוי (למשל, דירוג 4.8 מתוך 5 יהיה 96%)
   const fillWidth = (review.rating / 5) * 100;
   
   return (
